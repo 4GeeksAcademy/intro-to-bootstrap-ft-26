@@ -1,0 +1,48 @@
+.bg-danger-subtle {
+    background-color: blueviolet !important;
+}
+
+/* .btn-danger {
+    background-color: blueviolet;
+} */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .btn-danger {
+        background-color: blueviolet;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .btn-danger {
+        background-color: #9874ba;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .btn-danger {
+        background-color: #8b5fb5;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .btn-danger {
+        background-color: #823dc2;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .btn-danger {
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+    .btn-danger {
+        background-color: brown;
+    }
+}
